@@ -20,7 +20,7 @@ class Crawler:
         with open(self.file_path, 'w'):
             pass  
     def download_url(self, url):
-        time.sleep(5)
+        time.sleep(2)
         user_agents = [ 
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 
 	        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36', 
@@ -39,10 +39,12 @@ class Crawler:
 
     def get_linked_urls(self, url, html):
         soup = BeautifulSoup(html, 'html.parser')
-        with open(self.file_path, 'a') as file:
-            file.write(str(soup))
+        with open(self.file_path, 'a', encoding="utf-8") as file:
+            file.write(str(soup.encode("utf-8")))
         for link in soup.find_all('a'):
             path = link.get('href')
+            if path is None:
+                path = '/'
             if path and path.startswith('/'):
                 path = urljoin(url, path)
             yield path
@@ -68,4 +70,4 @@ class Crawler:
                 self.visited_urls.append(url)
 
 if __name__ == '__main__':
-    Crawler('https://www.hockeydb.com/', urls=['https://www.hockeydb.com/ihdb/draft/index.html']).run()
+    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/draft/']).run()
