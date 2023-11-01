@@ -71,3 +71,5 @@ class Crawler:
 
 if __name__ == '__main__':
     Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/draft/']).run()
+
+# regex NHL_20(0[0-9]|1[0-9]|2[0-3]) a draft|player|team
