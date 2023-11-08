@@ -41,9 +41,13 @@ class Crawler:
 
     def get_linked_urls(self, url, html):
         soup = BeautifulSoup(html, 'html.parser')
-        soup = str(soup.encode("utf-8")).replace('\\n', ' ')
-        draft = re.search('<strong>Draft</strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
+        soup = str(soup.encode("utf-8")).replace('\\n', ' ').replace('\\xc2\\xa0', ' ')
+        draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
         name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup).group(1).strip()
+        draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(3).strip()
+        draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(4).strip()
+        draft_year = re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', soup).group(1).strip() 
+
         with open(self.file_path, 'a', encoding="utf-8") as file:
             file.write(str(soup.encode("utf-8")))
         for link in soup.find_all('a'):
