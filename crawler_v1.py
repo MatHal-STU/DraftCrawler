@@ -1,14 +1,15 @@
 import logging
 from urllib.parse import urljoin
-import requests
+import re
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
 import time
-import random 
+import random
 
 logging.basicConfig(
     format='%(asctime)s %(levelname)s:%(message)s',
     level=logging.INFO)
+
 
 class Crawler:
 
@@ -18,27 +19,31 @@ class Crawler:
         self.visited_urls = []
         self.urls_to_visit = urls
         with open(self.file_path, 'w'):
-            pass  
+            pass
+
     def download_url(self, url):
         time.sleep(2)
-        user_agents = [ 
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 
-	        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36', 
-	        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 
-	        'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148', 
-	        'Mozilla/5.0 (Linux; Android 11; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Mobile Safari/537.36' 
+        user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36',
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+            'Mozilla/5.0 (Linux; Android 11; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Mobile Safari/537.36'
         ]
-        user_agent = random.choice(user_agents) 
-        headers = {'User-Agent': user_agent} 
+        user_agent = random.choice(user_agents)
+        headers = {'User-Agent': user_agent}
         req = Request(
-            url= url, 
-            headers= headers
+            url=url,
+            headers=headers
         )
         webpage = urlopen(req).read()
         return webpage
 
     def get_linked_urls(self, url, html):
         soup = BeautifulSoup(html, 'html.parser')
+        soup = str(soup.encode("utf-8")).replace('\\n', ' ')
+        draft = re.search('<strong>Draft</strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
+        name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup).group(1).strip()
         with open(self.file_path, 'a', encoding="utf-8") as file:
             file.write(str(soup.encode("utf-8")))
         for link in soup.find_all('a'):
@@ -69,7 +74,9 @@ class Crawler:
             finally:
                 self.visited_urls.append(url)
 
+
 if __name__ == '__main__':
-    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/draft/']).run()
+    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/players/b/bedarco01.html']).run()
 
 # regex NHL_20(0[0-9]|1[0-9]|2[0-3]) a draft|player|team
+# https://www.hockey-reference.com/draft/
