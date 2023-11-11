@@ -40,16 +40,18 @@ class Crawler:
         return webpage
 
     def get_linked_urls(self, url, html):
+        # draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
+        # name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup).group(1).strip()
+        # draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(3).strip()
+        # draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(4).strip()
+        # draft_year = re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', soup).group(1).strip() 
+        # if re.search('<p><strong>Team Names:<\/strong>(.*?)<\/p>', html):
         soup = BeautifulSoup(html, 'html.parser')
-        soup = str(soup.encode("utf-8")).replace('\\n', ' ').replace('\\xc2\\xa0', ' ')
-        draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
-        name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup).group(1).strip()
-        draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(3).strip()
-        draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup).group(4).strip()
-        draft_year = re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', soup).group(1).strip() 
+        soup_ench = str(soup.encode("utf-8")).replace('\\n', ' ').replace('\\xc2\\xa0', ' ')
 
         with open(self.file_path, 'a', encoding="utf-8") as file:
-            file.write(str(soup.encode("utf-8")))
+            if re.search('<p><strong>Team Names:<\/strong>(.*?)<\/p>', soup_ench) or ( re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup_ench) and re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup_ench) ):
+                file.write(soup_ench)
         for link in soup.find_all('a'):
             path = link.get('href')
             if path is None:
@@ -58,14 +60,14 @@ class Crawler:
                 path = urljoin(url, path)
             yield path
 
-    def add_url_to_visit(self, url):
+    def add_url_to_visit(self, url, html):
         if url not in self.visited_urls and url not in self.urls_to_visit and self.main_url in url:
             self.urls_to_visit.append(url)
 
     def crawl(self, url):
         html = self.download_url(url)
         for url in self.get_linked_urls(url, html):
-            self.add_url_to_visit(url)
+            self.add_url_to_visit(url,html)
 
     def run(self):
         while self.urls_to_visit:
@@ -80,7 +82,7 @@ class Crawler:
 
 
 if __name__ == '__main__':
-    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/players/b/bedarco01.html']).run()
+    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/draft/']).run()
 
 # regex NHL_20(0[0-9]|1[0-9]|2[0-3]) a draft|player|team
 # https://www.hockey-reference.com/draft/
