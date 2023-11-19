@@ -13,9 +13,7 @@ with open('html_pokus3.txt', 'r') as file:
     text_content = file.read()
 
 draft_team = re.findall('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', text_content)
-name = re.findall('<h1>
-		<span>(.*?)<\/span>
-			<\/h1> ', text_content)
+name = re.findall('<h1><span>(.*?)<\/span><\/h1> ', text_content)
 draft_pick = re.findall('<p><strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\), <a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a> <\/p>', text_content)
 
 

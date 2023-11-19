@@ -44,7 +44,8 @@ class Crawler:
         soup_ench = str(soup.encode("utf-8")).replace('\\n', ' ').replace('\\xc2\\xa0', ' ')
 
         with open(self.file_path, 'a', encoding="utf-8") as file:
-            file.write(soup_ench)
+            if re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', soup_ench) and re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', soup_ench):
+                file.write(soup_ench)
         for link in soup.find_all('a'):
             path = link.get('href')
             if path is None:
@@ -75,7 +76,7 @@ class Crawler:
 
 
 if __name__ == '__main__':
-    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/players/b/bedarco01.html']).run()
+    Crawler('https://www.hockey-reference.com/', urls=['https://www.hockey-reference.com/draft/']).run()
 
 # regex NHL_20(0[0-9]|1[0-9]|2[0-3]) a draft|player|team
 # https://www.hockey-reference.com/draft/
