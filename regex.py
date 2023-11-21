@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 
 
 with open('html.txt', 'r', encoding='utf-8') as file:
-    current_html = ''
     a=file.read()
     pages = a.split("</html>")
 
