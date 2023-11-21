@@ -1,5 +1,6 @@
 import re
 import csv
+from bs4 import BeautifulSoup
 
 # draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', soup).group(2).strip()
 # name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', soup).group(1).strip()
@@ -9,31 +10,26 @@ import csv
 #  re.search('<p><strong>Team Names:<\/strong>(.*?)<\/p>', html):
 
 
-with open('html_pokus3.txt', 'r') as file:
-    text_content = file.read()
+with open('html.txt', 'r', encoding='utf-8') as file:
+    current_html = ''
+    a=file.read()
+    pages = a.split("</html>")
 
-draft_team = re.findall('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', text_content)
-name = re.findall('<h1><span>(.*?)<\/span><\/h1> ', text_content)
-draft_pick = re.findall('<p><strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\), <a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a> <\/p>', text_content)
-
-
-print(len(draft_team))
-print(len(name))
-print(len(draft_pick))
-
-
-csv_file_name = 'output.csv'
-
-f = open('output.csv', 'w')
+f = open('output.csv', 'a', encoding='utf-8', newline="")
 out = csv.writer(f, delimiter=",")
-out.writerow([u"value1", u"value2", u"value3"])
-# for match in matches:
-#    out.writerow([match[1]])
+for page in pages:
+    if not re.search('<h1> <span>(.*?)<\/span> <\/h1>', page):
+        continue
+    name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', page).group(1).strip()
+    name = name.encode('latin1').decode('unicode-escape').encode('latin1').decode('utf8')
+    draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', page).group(2).strip()
+    draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', page).group(3).strip()
+    draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', page).group(4).strip()
+    draft_year = re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', page).group(1).strip() 
+    out.writerow([name, draft_team, draft_round, draft_overall,draft_year])
+
 f.close()
 
-    # Write the header if needed
-    # csv_writer.writerow(['Column1', 'Column2', ...])
- 
 
 
-print(f"Occurrences have been saved in {csv_file_name}.")
+print(f"Occurrences have been saved in output.csv.")
