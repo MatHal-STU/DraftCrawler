@@ -24,23 +24,20 @@ def index_csv_data(csv_data, index_writer):
 
 with open("output.csv", "r", newline="", encoding="utf-8") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=",")
-
-store = MMapDirectory(Paths.get('index'))
-analyzer = StandardAnalyzer()
-config = IndexWriterConfig(analyzer)
-config.setOpenMode(IndexWriterConfig.OpenMode.CREATE)
-writer = IndexWriter(store, config)
-
-index_csv_data(csv_reader, writer)
-
-writer.commit()
-writer.close()
+    store = MMapDirectory(Paths.get('index'))
+    analyzer = StandardAnalyzer()
+    config = IndexWriterConfig(analyzer)
+    config.setOpenMode(IndexWriterConfig.OpenMode.CREATE)
+    writer = IndexWriter(store, config)
+    index_csv_data(csv_reader, writer)
+    writer.commit()
+    writer.close()
 
 searcher = IndexSearcher(DirectoryReader.open(store))
 query_parser = QueryParser("round", analyzer)
 query = query_parser.parse("1st")
 
-results = searcher.search(query, 10)  # Adjust the number of results as needed
+results = searcher.search(query, 20)  # Adjust the number of results as needed
 
 # Print the matching entries
 for score_doc in results.scoreDocs:
