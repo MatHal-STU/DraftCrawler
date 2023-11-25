@@ -38,6 +38,12 @@ with open("output.csv", "r", newline="", encoding="utf-8") as csv_file:
     writer.commit()
     writer.close()
 
+user_name = input('Enter the name to search for: ')
+user_position = input("Enter the position to search for: ")
+# user_nationality = input("Enter the nationality to search for: ")
+# start_year = input("Enter the start year of the range: ")
+# end_year = input("Enter the end year of the range: ")
+
 user_name = ""
 user_position = ""
 user_nationality = "Sk"
