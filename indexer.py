@@ -40,17 +40,19 @@ with open("output.csv", "r", newline="", encoding="utf-8") as csv_file:
 
 user_name = input('Enter the name to search for: ')
 user_position = input("Enter the position to search for: ")
-# user_nationality = input("Enter the nationality to search for: ")
-# start_year = input("Enter the start year of the range: ")
-# end_year = input("Enter the end year of the range: ")
+user_nationality = input("Enter the nationality to search for: ")
+start_year = input("Enter the start year of the range: ")
+end_year = input("Enter the end year of the range: ")
+user_round = input("Enter the round: ")
+user_overall = input("Enter the overall: ")
 
-user_name = ""
-user_position = ""
-user_nationality = "Sk"
-user_round = ""
-user_overall = "1st"
-start_year = ""
-end_year = ""
+# user_name = ""
+# user_position = ""
+# user_nationality = "Sk"
+# user_round = ""
+# user_overall = "1st"
+# start_year = ""
+# end_year = ""
 
 searcher = IndexSearcher(DirectoryReader.open(store))
 boolean_query = BooleanQuery.Builder()
@@ -84,7 +86,7 @@ if user_overall:
     overall_query = TermQuery(overall_term)
     boolean_query.add(overall_query, BooleanClause.Occur.MUST)
 
-results = searcher.search(boolean_query.build(), 10)  # Adjust the number of results as needed
+results = searcher.search(boolean_query.build(), 20)  # Adjust the number of results as needed
 # Print the matching entries
 for score_doc in results.scoreDocs:
     doc = searcher.doc(score_doc.doc)
