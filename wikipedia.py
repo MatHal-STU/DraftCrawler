@@ -1,10 +1,12 @@
+import sys
+
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 import re
 
 spark = SparkSession.builder.appName("wikipedia").getOrCreate()
 result_df = spark.createDataFrame([], 'Overall STRING, Name STRING, Junior_Team STRING, Country STRING, Year String')
-columns = ["Overall", "Name", "Country", "Junior_Team", "Year"]
+columns = ["Overall", "Name","Junior_Team", "Country", "Year"]
 
 
 def extract_all(text):
@@ -40,15 +42,14 @@ def extract_all(text):
 
 
 if __name__ == "__main__":
-    xml_file_path = "D:\\Skola\\VINF\\DraftCrawler\\wiki\\enwiki-latest-pages-articles10.xml"
+    # xml_file_path = "D:\\Skola\\VINF\\DraftCrawler\\wiki\\enwiki-latest-pages-articles10.xml"
 
-    df = spark.read.option("rowTag", "page").format("xml").load(xml_file_path)
+    df = spark.read.option("rowTag", "page").format("xml").load(sys.argv[1])
     df_filtered = df.filter(df.title.rlike('(\d{4})(?i) NHL Entry Draft'))
     if df_filtered:
         df_select = df_filtered.select("revision.text._VALUE", "title")
         extract_all_udf = udf(lambda z: extract_all(z), ArrayType(ArrayType(StringType())))
         df_result_names = df_select.withColumn("extracted_names", extract_all_udf(col("_VALUE")))
-        df_result_names.select("title","extracted_names").show(truncate=False)
         df_result_names = df_result_names.select("extracted_names", "title")
         data_collect = df_result_names.collect()
 
@@ -61,7 +62,7 @@ if __name__ == "__main__":
                 help_df = spark.createDataFrame(daco, columns)
                 result_df = result_df.unionByName(help_df)
 
-    result_df.write.csv("D:\\Skola\\VINF\\DraftCrawler\\wiki\\result")
+    result_df.write.csv(sys.argv[2])
 
     spark.stop()
 

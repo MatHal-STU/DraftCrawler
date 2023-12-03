@@ -31,7 +31,7 @@ for page in pages:
         nationality = 'Unknown'
     else:
         nationality = re.search('<span class="(.*?)" style="">(.*?)<\/span>', page).group(2).strip().capitalize() 
-    out.writerow([name, draft_team, draft_round, draft_overall, draft_year, position,nationality])
+    out.writerow([name, draft_team, draft_round, draft_overall, draft_year, position,nationality,"Unknown"])
 
 f.close()
 
