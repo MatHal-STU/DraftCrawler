@@ -23,8 +23,8 @@ for page in pages:
     name = re.search('<h1> <span>(.*?)<\/span> <\/h1>', page).group(1).strip()
     name = name.encode('latin1').decode('unicode-escape').encode('latin1').decode('utf8')
     draft_team = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>', page).group(2).strip()
-    draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', page).group(3).strip()
-    draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (.*?) round \((.*?) overall\),', page).group(4).strip()
+    draft_round = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (\d+).*? round \((.*?) overall\),', page).group(3).strip()
+    draft_overall = re.search('<strong>Draft<\/strong>: <a href="(\/)teams\/[^"]+\/draft.html">(.*?)<\/a>, (\d+).*? round \((\d+).*? overall\),', page).group(4).strip()
     draft_year = re.search('<a href="\/draft\/NHL_(\d{4})_entry.html">(.*?)<\/a>', page).group(1).strip() 
     position = re.search('<strong>Position<\/strong>: (.*?) (.*?);', page).group(1).strip() 
     if not re.search('<span class="(.*?)" style="">(.*?)<\/span>', page):
