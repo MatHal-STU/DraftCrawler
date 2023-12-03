@@ -31,7 +31,7 @@ def extract_all(text):
         team = team.replace("[[", "")
         team = team.replace("]]", "")
 
-        rows.append([name, country, team, overall])
+        rows.append([overall, name, country, team])
 
     if rows:
         return rows
@@ -53,11 +53,13 @@ if __name__ == "__main__":
         data_collect = df_result_names.collect()
 
         for row in data_collect:
-            year = re.search('(\d{4})(?i) NHL Entry Draft', row["title"]).group(1).strip()
+            year = re.search('(\d{4})', row["title"]).group(1).strip()
             daco = row["extracted_names"]
             if daco:
                 for i in daco:
                     i.append(year)
+                help_df = spark.createDataFrame(daco, columns)
+                result_df = result_df.unionByName(help_df)
 
     result_df.write.csv("D:\\Skola\\VINF\\DraftCrawler\\wiki\\result")
 
