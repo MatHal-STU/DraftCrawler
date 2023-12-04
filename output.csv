@@ -43,19 +43,19 @@ Gord Kluzak,Boston,1,1,1982,D,Ca,Unknown
 Dale Hawerchuk,Winnipeg,1,1,1981,C,Ca,Unknown
 Doug Wickenheiser,Montreal,1,1,1980,C,Ca,Unknown
 Rob Ramage,Colorado,1,1,1979,D,Ca,Unknown
-Bobby Smith,Minnesota,1,1,2023,C,Ca,Unknown
-Dale McCourt,Detroit,1,1,2023,C,Ca,Unknown
-Rick Green,Washington,1,1,2023,D,Ca,Unknown
-Mel Bridgman,Philadelphia,1,1,2023,C,Ca,Unknown
-Greg Joly,Washington,1,1,2023,D,Ca,Unknown
-Denis Potvin,NY Islanders,1,1,2023,D,Ca,Unknown
-Billy Harris,NY Islanders,1,1,2023,RW,Ca,Unknown
-Guy Lafleur,Montreal,1,1,2023,RW,Ca,Unknown
-Gilbert Perreault,Buffalo,1,1,2023,C,Ca,Unknown
-Réjean Houle,Montreal,1,1,2023,RW,Ca,Unknown
-Michel Plasse,Montreal,1,1,2023,G,Ca,Unknown
-Barry Gibbs,Boston,1,1,2023,D,Ca,Unknown
-Garry Monahan,Montreal,1,1,2023,LW,Ca,Unknown
+Bobby Smith,Minnesota,1,1,1978,C,Ca,Unknown
+Dale McCourt,Detroit,1,1,1977,C,Ca,Unknown
+Rick Green,Washington,1,1,1976,D,Ca,Unknown
+Mel Bridgman,Philadelphia,1,1,1975,C,Ca,Unknown
+Greg Joly,Washington,1,1,1974,D,Ca,Unknown
+Denis Potvin,NY Islanders,1,1,1973,D,Ca,Unknown
+Billy Harris,NY Islanders,1,1,1972,RW,Ca,Unknown
+Guy Lafleur,Montreal,1,1,1971,RW,Ca,Unknown
+Gilbert Perreault,Buffalo,1,1,1970,C,Ca,Unknown
+Réjean Houle,Montreal,1,1,1969,RW,Ca,Unknown
+Michel Plasse,Montreal,1,1,1968,G,Ca,Unknown
+Barry Gibbs,Boston,1,1,1966,D,Ca,Unknown
+Garry Monahan,Montreal,1,1,1963,LW,Ca,Unknown
 Jonathan Toews,Chicago,1,3,2006,C,Ca,Unknown
 Duncan Keith,Chicago,2,54,2002,D,Ca,Unknown
 Jamie Benn,Dallas,5,129,2007,LW,Ca,Unknown
@@ -82,7 +82,7 @@ Ryan Winterton,Seattle,3,67,2021,C,Ca,Unknown
 Marc Del Gaizo,Nashville,4,109,2019,D,Us,Unknown
 Roman Čechmánek,Philadelphia,6,171,2000,G,Cs,Unknown
 Nicolas Kerdiles,Anaheim,2,36,2012,LW,Us,Unknown
-Henry Boucha,Detroit,2,16,2023,C,Us,Unknown
+Henry Boucha,Detroit,2,16,1971,C,Us,Unknown
 Cal Clutterbuck,Minnesota,3,72,2006,RW,Ca,Unknown
 Ľubomír Sekeráš,Minnesota,8,232,2000,D,Cs,Unknown
 Jacob Bryson,Buffalo,4,99,2017,D,Ca,Unknown
@@ -95,16 +95,16 @@ Oliver Ekman-Larsson,Phoenix,1,6,2009,D,Se,Unknown
 Ben Chiarot,Atlanta,4,120,2009,D,Ca,Unknown
 Nikita Zadorov,Buffalo,1,16,2013,D,Ru,Unknown
 Daniel Alfredsson,Ottawa,6,133,1994,RW,Se,Unknown
-Mike Bossy,NY Islanders,1,15,2023,RW,Ca,Unknown
+Mike Bossy,NY Islanders,1,15,1977,RW,Ca,Unknown
 Paul Coffey,Edmonton,1,6,1980,D,Ca,Unknown
 Chris Chelios,Montreal,2,40,1981,D,Us,Unknown
 Zdeno Chára,NY Islanders,3,56,1996,D,Cs,Unknown
-Ken Dryden,Boston,3,14,2023,G,Ca,Unknown
+Ken Dryden,Boston,3,14,1964,G,Ca,Unknown
 Drew Doughty,Los Angeles,1,2,2008,D,Ca,Unknown
-Marcel Dionne,Detroit,1,2,2023,C,Ca,Unknown
-Don Edwards,Buffalo,5,89,2023,G,Ca,Unknown
+Marcel Dionne,Detroit,1,2,1971,C,Ca,Unknown
+Don Edwards,Buffalo,5,89,1975,G,Ca,Unknown
 Patrik Eliáš,New Jersey,2,51,1994,LW,Cs,Unknown
-Brian Engblom,Montreal,2,22,2023,D,Ca,Unknown
+Brian Engblom,Montreal,2,22,1975,D,Ca,Unknown
 Peter Forsberg,Philadelphia,1,6,1991,C,Se,Unknown
 Grant Fuhr,Edmonton,1,8,1981,G,Ca,Unknown
 Adam Fox,Calgary,3,66,2016,D,Us,Unknown
@@ -129,31 +129,31 @@ Scott Niedermayer,New Jersey,1,3,1991,D,Ca,Unknown
 Markus Näslund,Pittsburgh,1,16,1991,LW,Se,Unknown
 James Neal,Dallas,2,33,2005,LW,Ca,Unknown
 Sandis Ozoliņš,San Jose,2,30,1991,D,Su,Unknown
-Brad Park,NY Rangers,1,2,2023,D,Ca,Unknown
+Brad Park,NY Rangers,1,2,1966,D,Ca,Unknown
 Chris Pronger,Hartford,1,2,1993,D,Ca,Unknown
 Jonathan Quick,Los Angeles,3,72,2005,G,Us,Unknown
-Joel Quenneville,Toronto,2,21,2023,D,Ca,Unknown
+Joel Quenneville,Toronto,2,21,1978,D,Ca,Unknown
 John Quenneville,New Jersey,1,30,2014,C,Ca,Unknown
 Kevin Quick,Tampa Bay,3,78,2006,D,Us,Unknown
 Luc Robitaille,Los Angeles,9,171,1984,LW,Ca,Unknown
-Larry Robinson,Montreal,2,20,2023,D,Ca,Unknown
+Larry Robinson,Montreal,2,20,1971,D,Ca,Unknown
 Patrick Roy,Montreal,3,51,1984,G,Ca,Unknown
 Scott Stevens,Washington,1,5,1982,D,Ca,Unknown
-Marc Tardif,Montreal,1,2,2023,LW,Ca,Unknown
-Bryan Trottier,NY Islanders,2,22,2023,C,Ca,Unknown
+Marc Tardif,Montreal,1,2,1969,LW,Ca,Unknown
+Bryan Trottier,NY Islanders,2,22,1974,C,Ca,Unknown
 Linus Ullmark,Buffalo,6,163,2012,G,Se,Unknown
 Scottie Upshall,Nashville,1,6,2002,LW,Ca,Unknown
 Dominik Uher,Pittsburgh,5,144,2011,C,Cs,Unknown
 John Vanbiesbrouck,NY Rangers,4,72,1981,G,Us,Unknown
 Andrei Vasilevskiy,Tampa Bay,1,19,2012,G,Ru,Unknown
 Thomas Vanek,Buffalo,1,5,2003,LW,At,Unknown
-Steve Vickers,NY Rangers,1,10,2023,LW,Ca,Unknown
+Steve Vickers,NY Rangers,1,10,1971,LW,Ca,Unknown
 Shea Weber,Nashville,2,49,2003,D,Ca,Unknown
-Doug Wilson,Chicago,1,6,2023,D,Ca,Unknown
+Doug Wilson,Chicago,1,6,1977,D,Ca,Unknown
 Florian Xhekaj,Montreal,4,101,2023,LW,Ca,Unknown
 Alexei Yashin,Ottawa,1,2,1992,C,Su,Unknown
 Steve Yzerman,Detroit,1,4,1983,C,Ca,Unknown
-Warren Young,California,4,59,2023,C,Ca,Unknown
+Warren Young,California,4,59,1976,C,Ca,Unknown
 Mike York,NY Rangers,6,136,1997,LW,Us,Unknown
 Trent Yawney,Chicago,3,45,1984,D,Ca,Unknown
 Alexei Zhamnov,Winnipeg,4,77,1990,C,Su,Unknown
@@ -217,21 +217,21 @@ Ron Hextall,Philadelphia,6,119,1982,G,Ca,Unknown
 Gary Suter,Calgary,9,180,1984,D,Us,Unknown
 Pelle Lindbergh,Philadelphia,2,35,1979,G,Se,Unknown
 Tom Barrasso,Buffalo,1,5,1983,G,Us,Unknown
-Rod Langway,Montreal,2,36,2023,D,Tw,Unknown
-Pete Peeters,Philadelphia,8,135,2023,G,Ca,Unknown
+Rod Langway,Montreal,2,36,1977,D,Tw,Unknown
+Pete Peeters,Philadelphia,8,135,1977,G,Ca,Unknown
 Steve Larmer,Chicago,6,120,1980,RW,Ca,Unknown
-Billy Smith,Los Angeles,5,59,2023,G,Ca,Unknown
-Denis Herron,Pittsburgh,3,40,2023,G,Ca,Unknown
-Michel Larocque,Montreal,1,6,2023,G,Ca,Unknown
-Richard Sévigny,Montreal,7,124,2023,G,Ca,Unknown
-Randy Carlyle,Toronto,2,30,2023,D,Ca,Unknown
-Butch Goring,Los Angeles,5,51,2023,C,Ca,Unknown
-Bob Sauvé,Buffalo,1,17,2023,G,Ca,Unknown
-Bob Gainey,Montreal,1,8,2023,LW,Ca,Unknown
-Willi Plett,Atlanta,5,80,2023,RW,Py,Unknown
-Bobby Clarke,Philadelphia,2,17,2023,C,Ca,Unknown
-Reggie Leach,Boston,1,3,2023,RW,Ca,Unknown
-Eric Vail,Atlanta,2,21,2023,LW,Ca,Unknown
+Billy Smith,Los Angeles,5,59,1970,G,Ca,Unknown
+Denis Herron,Pittsburgh,3,40,1972,G,Ca,Unknown
+Michel Larocque,Montreal,1,6,1972,G,Ca,Unknown
+Richard Sévigny,Montreal,7,124,1977,G,Ca,Unknown
+Randy Carlyle,Toronto,2,30,1976,D,Ca,Unknown
+Butch Goring,Los Angeles,5,51,1969,C,Ca,Unknown
+Bob Sauvé,Buffalo,1,17,1975,G,Ca,Unknown
+Bob Gainey,Montreal,1,8,1973,LW,Ca,Unknown
+Willi Plett,Atlanta,5,80,1975,RW,Py,Unknown
+Bobby Clarke,Philadelphia,2,17,1969,C,Ca,Unknown
+Reggie Leach,Boston,1,3,1970,RW,Ca,Unknown
+Eric Vail,Atlanta,2,21,1973,LW,Ca,Unknown
 Kyle Connor,Winnipeg,1,17,2015,LW,Us,Unknown
 Quinn Hughes,Vancouver,1,7,2018,D,Us,Unknown
 J.T. Miller,NY Rangers,1,15,2011,C,Us,Unknown
@@ -755,56 +755,56 @@ Keith Brown,Chicago,1,7,1979,D,Ca,Unknown
 Tim Trimper,Chicago,2,28,1979,LW,Ca,Unknown
 Bill Gardner,Chicago,3,49,1979,C,Ca,Unknown
 Doug Crossman,Chicago,6,112,1979,D,Ca,Unknown
-Tim Higgins,Chicago,1,10,2023,RW,Ca,Unknown
-Doug Lecuyer,Chicago,2,29,2023,LW,Ca,Unknown
-Rick Paterson,Chicago,3,46,2023,C,Ca,Unknown
-Brian Young,Chicago,4,63,2023,D,Ca,Unknown
-Dave Feamster,Chicago,6,96,2023,D,Us,Unknown
-Darryl Sutter,Chicago,11,179,2023,LW,Ca,Unknown
-Jean Savard,Chicago,2,19,2023,C,Ca,Unknown
-Randy Ireland,Chicago,4,60,2023,G,Ca,Unknown
-Jack O'Callahan,Chicago,6,96,2023,D,Us,Unknown
-Floyd Lahache,Chicago,7,114,2023,D,Ca,Unknown
-Réal Cloutier,Chicago,1,9,2023,RW,Ca,Unknown
-Jeff McDill,Chicago,2,27,2023,RW,Ca,Unknown
-Thomas Gradin,Chicago,3,45,2023,C,Se,Unknown
-Dave Debol,Chicago,4,63,2023,C,Us,Unknown
-Terry McDonald,Kansas City,5,74,2023,D,Ca,Unknown
-Greg Vaydik,Chicago,1,7,2023,C,Ca,Unknown
-Mike O'Connell,Chicago,3,43,2023,D,Us,Unknown
-Pierre Giroux,Chicago,4,61,2023,C,Ca,Unknown
-Bob Hoffmeyer,Chicago,5,79,2023,D,Ca,Unknown
-Ted Bulley,Chicago,7,115,2023,LW,Ca,Unknown
-Grant Mulvey,Chicago,1,16,2023,RW,Ca,Unknown
-Alain Daigle,Chicago,2,34,2023,RW,Ca,Unknown
-Bob Murray,Chicago,3,52,2023,D,Ca,Unknown
-Terry Ruskowski,Chicago,4,70,2023,C,Ca,Unknown
-Dave Logan,Chicago,5,88,2023,D,Ca,Unknown
-Eddie Mio,Chicago,7,124,2023,G,Ca,Unknown
-Darcy Rota,Chicago,1,13,2023,LW,Ca,Unknown
-Reg Thomas,Chicago,2,29,2023,LW,Ca,Unknown
-Randy Holt,Chicago,3,45,2023,D,Ca,Unknown
-Dan Hinton,Chicago,5,77,2023,LW,Ca,Unknown
-Steve Alley,Chicago,9,141,2023,LW,Us,Unknown
-Phil Russell,Chicago,1,13,2023,D,Ca,Unknown
-Brian Ogilvie,Chicago,2,29,2023,C,Ca,Unknown
-Mike Veisor,Chicago,3,45,2023,G,Ca,Unknown
-Rob Palmer,Chicago,6,93,2023,C,Us,Unknown
-Gary Donaldson,Chicago,9,141,2023,RW,Ca,Unknown
-Dave Kryskow,Chicago,2,26,2023,LW,Ca,Unknown
-Dan Maloney,Chicago,1,14,2023,LW,Ca,Unknown
-Michel Archambault,Chicago,2,28,2023,LW,Ca,Unknown
-Len Frig,Chicago,3,42,2023,D,Ca,Unknown
-Walt Ledingham,Chicago,4,56,2023,LW,Ca,Unknown
-Gilles Meloche,Chicago,5,70,2023,G,Ca,Unknown
-J.P. Bordeleau,Chicago,1,13,2023,RW,Ca,Unknown
-Larry Romanchych,Chicago,2,24,2023,RW,Ca,Unknown
-Darryl Maggs,Chicago,4,48,2023,D,Ca,Unknown
-Mike Baumgartner,Chicago,5,60,2023,D,Us,Unknown
-Dave Hudson,Chicago,6,71,2023,C,Ca,Unknown
-John Marks,Chicago,1,9,2023,LW,Ca,Unknown
-Terry Caffery,Chicago,1,3,2023,C,Ca,Unknown
-Moe L'Abbe,Chicago,4,22,2023,RW,Ca,Unknown
+Tim Higgins,Chicago,1,10,1978,RW,Ca,Unknown
+Doug Lecuyer,Chicago,2,29,1978,LW,Ca,Unknown
+Rick Paterson,Chicago,3,46,1978,C,Ca,Unknown
+Brian Young,Chicago,4,63,1978,D,Ca,Unknown
+Dave Feamster,Chicago,6,96,1978,D,Us,Unknown
+Darryl Sutter,Chicago,11,179,1978,LW,Ca,Unknown
+Jean Savard,Chicago,2,19,1977,C,Ca,Unknown
+Randy Ireland,Chicago,4,60,1977,G,Ca,Unknown
+Jack O'Callahan,Chicago,6,96,1977,D,Us,Unknown
+Floyd Lahache,Chicago,7,114,1977,D,Ca,Unknown
+Réal Cloutier,Chicago,1,9,1976,RW,Ca,Unknown
+Jeff McDill,Chicago,2,27,1976,RW,Ca,Unknown
+Thomas Gradin,Chicago,3,45,1976,C,Se,Unknown
+Dave Debol,Chicago,4,63,1976,C,Us,Unknown
+Terry McDonald,Kansas City,5,74,1975,D,Ca,Unknown
+Greg Vaydik,Chicago,1,7,1975,C,Ca,Unknown
+Mike O'Connell,Chicago,3,43,1975,D,Us,Unknown
+Pierre Giroux,Chicago,4,61,1975,C,Ca,Unknown
+Bob Hoffmeyer,Chicago,5,79,1975,D,Ca,Unknown
+Ted Bulley,Chicago,7,115,1975,LW,Ca,Unknown
+Grant Mulvey,Chicago,1,16,1974,RW,Ca,Unknown
+Alain Daigle,Chicago,2,34,1974,RW,Ca,Unknown
+Bob Murray,Chicago,3,52,1974,D,Ca,Unknown
+Terry Ruskowski,Chicago,4,70,1974,C,Ca,Unknown
+Dave Logan,Chicago,5,88,1974,D,Ca,Unknown
+Eddie Mio,Chicago,7,124,1974,G,Ca,Unknown
+Darcy Rota,Chicago,1,13,1973,LW,Ca,Unknown
+Reg Thomas,Chicago,2,29,1973,LW,Ca,Unknown
+Randy Holt,Chicago,3,45,1973,D,Ca,Unknown
+Dan Hinton,Chicago,5,77,1973,LW,Ca,Unknown
+Steve Alley,Chicago,9,141,1973,LW,Us,Unknown
+Phil Russell,Chicago,1,13,1972,D,Ca,Unknown
+Brian Ogilvie,Chicago,2,29,1972,C,Ca,Unknown
+Mike Veisor,Chicago,3,45,1972,G,Ca,Unknown
+Rob Palmer,Chicago,6,93,1972,C,Us,Unknown
+Gary Donaldson,Chicago,9,141,1972,RW,Ca,Unknown
+Dave Kryskow,Chicago,2,26,1971,LW,Ca,Unknown
+Dan Maloney,Chicago,1,14,1970,LW,Ca,Unknown
+Michel Archambault,Chicago,2,28,1970,LW,Ca,Unknown
+Len Frig,Chicago,3,42,1970,D,Ca,Unknown
+Walt Ledingham,Chicago,4,56,1970,LW,Ca,Unknown
+Gilles Meloche,Chicago,5,70,1970,G,Ca,Unknown
+J.P. Bordeleau,Chicago,1,13,1969,RW,Ca,Unknown
+Larry Romanchych,Chicago,2,24,1969,RW,Ca,Unknown
+Darryl Maggs,Chicago,4,48,1969,D,Ca,Unknown
+Mike Baumgartner,Chicago,5,60,1969,D,Us,Unknown
+Dave Hudson,Chicago,6,71,1969,C,Ca,Unknown
+John Marks,Chicago,1,9,1968,LW,Ca,Unknown
+Terry Caffery,Chicago,1,3,1966,C,Ca,Unknown
+Moe L'Abbe,Chicago,4,22,1964,RW,Ca,Unknown
 Connor Bedard,Chicago,1,1,2023,C,Ca,Unknown
 Connor Bedard,Chicago,1,1,2023,C,Ca,Unknown
 Connor Bedard,Chicago,1,1,2023,C,Ca,Unknown
@@ -1034,7 +1034,7 @@ Joel Maatta,Edmonton,7,222,2022,C,Fi,Unknown
 Dyllan Gill,Tampa Bay,7,223,2022,D,Ca,Unknown
 Klavs Veinbergs,Tampa Bay,7,224,2022,LW,Lv,Unknown
 Ivan Zhigalov,Colorado,7,225,2022,G,By,Unknown
-Steve Shutt,Montreal,1,4,2023,LW,Ca,Unknown
+Steve Shutt,Montreal,1,4,1972,LW,Ca,Unknown
 Logan Mailloux,Montreal,1,31,2021,D,Ca,Unknown
 Riley Kidney,Montreal,2,63,2021,C,Ca,Unknown
 Oliver Kapanen,Montreal,2,64,2021,C,Se,Unknown
@@ -1308,76 +1308,76 @@ Guy Carbonneau,Montreal,3,44,1979,C,Ca,Unknown
 Rick Wamsley,Montreal,3,58,1979,G,Ca,Unknown
 Dave Orleski,Montreal,4,79,1979,LW,Ca,Unknown
 Yvan Joly,Montreal,5,100,1979,RW,Ca,Unknown
-Danny Geoffrion,Montreal,1,8,2023,RW,Ca,Unknown
-Dave Hunter,Montreal,1,17,2023,LW,Ca,Unknown
-Dale Yakiwchuk,Montreal,2,30,2023,C,Ca,Unknown
-Ron Carter,Montreal,2,36,2023,RW,Ca,Unknown
-Richard David,Montreal,3,42,2023,LW,Ca,Unknown
-Keith Acton,Montreal,6,103,2023,C,Ca,Unknown
-Larry Landon,Montreal,8,137,2023,RW,Ca,Unknown
-Viacheslav Fetisov,Montreal,12,201,1983,D,Su,Unknown
-Chris Nilan,Montreal,19,231,2023,RW,Us,Unknown
-Louis Sleigher,Montreal,21,233,2023,RW,Ca,Unknown
-Mark Napier,Montreal,1,10,2023,RW,Ca,Unknown
-Norm Dupont,Montreal,1,18,2023,LW,Ca,Unknown
-Alain Côté,Montreal,3,43,2023,LW,Ca,Unknown
-Pierre Lagace,Montreal,3,46,2023,LW,Ca,Unknown
-Moe Robinson,Montreal,3,49,2023,D,Ca,Unknown
-Gordie Roberts,Montreal,3,54,2023,D,Us,Unknown
-Rob Holland,Montreal,4,64,2023,G,Ca,Unknown
-Mark Holden,Montreal,10,160,2023,G,Us,Unknown
-Craig Laughlin,Montreal,10,162,2023,RW,Ca,Unknown
-Daniel Poulin,Montreal,11,167,2023,D,Ca,Unknown
-Peter Lee,Montreal,1,12,2023,RW,Gb,Unknown
-Rod Schutt,Montreal,1,13,2023,LW,Ca,Unknown
-Barry Melrose,Montreal,2,36,2023,D,Ca,Unknown
-Bill Baker,Montreal,3,54,2023,D,Us,Unknown
-Ron Wilson,Montreal,13,133,2023,C,Ca,Unknown
-Pierre Mondou,Montreal,1,15,2023,C,Ca,Unknown
-Paul Woods,Montreal,3,51,2023,LW,Ca,Unknown
-Pat Hughes,Montreal,3,52,2023,RW,Ca,Unknown
-Dave Gorman,Montreal,4,70,2023,RW,Ca,Unknown
-Jim Turkiewicz,Montreal,5,88,2023,D,Ca,Unknown
-Michel Lachance,Montreal,6,106,2023,D,Ca,Unknown
-Craig Norwich,Montreal,8,142,2023,D,Us,Unknown
-Cam Connor,Montreal,1,5,2023,RW,Ca,Unknown
-Doug Risebrough,Montreal,1,7,2023,C,Ca,Unknown
-Rick Chartraw,Montreal,1,10,2023,D/RW,Ve,Unknown
-Mario Tremblay,Montreal,1,12,2023,RW,Ca,Unknown
-Gord McTavish,Montreal,1,15,2023,C,Ca,Unknown
-Gary MacGregor,Montreal,2,30,2023,C,Ca,Unknown
-Gilles Lupien,Montreal,2,33,2023,D,Ca,Unknown
-Marty Howe,Montreal,3,51,2023,D,Us,Unknown
-Barry Legge,Montreal,4,61,2023,D,Ca,Unknown
-John Stewart,Montreal,6,105,2023,C,Ca,Unknown
-Joe Micheletti,Montreal,7,123,2023,D,Us,Unknown
-Jamie Hislop,Montreal,8,140,2023,RW,Ca,Unknown
-Charlie Luksa,Montreal,10,172,2023,D,Ca,Unknown
-Dave Lumley,Montreal,12,199,2023,RW,Ca,Unknown
-Glenn Goldup,Montreal,2,17,2023,RW,Ca,Unknown
-Ron Andruff,Montreal,2,32,2023,C,Ca,Unknown
-Ed Humphreys,Montreal,3,37,2023,G,Ca,Unknown
-Al Hangsleben,Montreal,4,56,2023,D,Us,Unknown
-Cap Raeder,Montreal,12,167,2023,G,Us,Unknown
-Dave Gardner,Montreal,1,8,2023,C,Ca,Unknown
-John Van Boxmeer,Montreal,1,14,2023,D,Ca,Unknown
-Ed Gilbert,Montreal,3,46,2023,C,Ca,Unknown
-Bill Nyrop,Montreal,5,66,2023,D,Us,Unknown
-Chuck Arnason,Montreal,1,7,2023,RW,Ca,Unknown
-Murray Wilson,Montreal,1,11,2023,LW,Ca,Unknown
-Greg Hubick,Montreal,4,53,2023,D,Ca,Unknown
-Mike Busniuk,Montreal,5,67,2023,D,Ca,Unknown
-Peter Sullivan,Montreal,7,95,2023,C,Ca,Unknown
-Chuck Lefley,Montreal,1,6,2023,LW,Ca,Unknown
-Steve Carlyle,Montreal,3,31,2023,D,Ca,Unknown
-Rick Wilson,Montreal,5,66,2023,D,Ca,Unknown
-Bobby Sheehan,Montreal,3,32,2023,C,Us,Unknown
-Murray Anderson,Montreal,4,44,2023,D,Ca,Unknown
-Guy Delparte,Montreal,6,63,2023,LW,Ca,Unknown
-Lynn Powis,Montreal,6,68,2023,C,Ca,Unknown
-Phil Myre,Montreal,1,5,2023,G,Ca,Unknown
-Jude Drouin,Montreal,3,17,2023,C,Ca,Unknown
-Pierre Bouchard,Montreal,1,5,2023,D,Ca,Unknown
+Danny Geoffrion,Montreal,1,8,1978,RW,Ca,Unknown
+Dave Hunter,Montreal,1,17,1978,LW,Ca,Unknown
+Dale Yakiwchuk,Montreal,2,30,1978,C,Ca,Unknown
+Ron Carter,Montreal,2,36,1978,RW,Ca,Unknown
+Richard David,Montreal,3,42,1978,LW,Ca,Unknown
+Keith Acton,Montreal,6,103,1978,C,Ca,Unknown
+Larry Landon,Montreal,8,137,1978,RW,Ca,Unknown
+Viacheslav Fetisov,Montreal,12,201,1978,D,Su,Unknown
+Chris Nilan,Montreal,19,231,1978,RW,Us,Unknown
+Louis Sleigher,Montreal,21,233,1978,RW,Ca,Unknown
+Mark Napier,Montreal,1,10,1977,RW,Ca,Unknown
+Norm Dupont,Montreal,1,18,1977,LW,Ca,Unknown
+Alain Côté,Montreal,3,43,1977,LW,Ca,Unknown
+Pierre Lagace,Montreal,3,46,1977,LW,Ca,Unknown
+Moe Robinson,Montreal,3,49,1977,D,Ca,Unknown
+Gordie Roberts,Montreal,3,54,1977,D,Us,Unknown
+Rob Holland,Montreal,4,64,1977,G,Ca,Unknown
+Mark Holden,Montreal,10,160,1977,G,Us,Unknown
+Craig Laughlin,Montreal,10,162,1977,RW,Ca,Unknown
+Daniel Poulin,Montreal,11,167,1977,D,Ca,Unknown
+Peter Lee,Montreal,1,12,1976,RW,Gb,Unknown
+Rod Schutt,Montreal,1,13,1976,LW,Ca,Unknown
+Barry Melrose,Montreal,2,36,1976,D,Ca,Unknown
+Bill Baker,Montreal,3,54,1976,D,Us,Unknown
+Ron Wilson,Montreal,13,133,1976,C,Ca,Unknown
+Pierre Mondou,Montreal,1,15,1975,C,Ca,Unknown
+Paul Woods,Montreal,3,51,1975,LW,Ca,Unknown
+Pat Hughes,Montreal,3,52,1975,RW,Ca,Unknown
+Dave Gorman,Montreal,4,70,1975,RW,Ca,Unknown
+Jim Turkiewicz,Montreal,5,88,1975,D,Ca,Unknown
+Michel Lachance,Montreal,6,106,1975,D,Ca,Unknown
+Craig Norwich,Montreal,8,142,1975,D,Us,Unknown
+Cam Connor,Montreal,1,5,1974,RW,Ca,Unknown
+Doug Risebrough,Montreal,1,7,1974,C,Ca,Unknown
+Rick Chartraw,Montreal,1,10,1974,D/RW,Ve,Unknown
+Mario Tremblay,Montreal,1,12,1974,RW,Ca,Unknown
+Gord McTavish,Montreal,1,15,1974,C,Ca,Unknown
+Gary MacGregor,Montreal,2,30,1974,C,Ca,Unknown
+Gilles Lupien,Montreal,2,33,1974,D,Ca,Unknown
+Marty Howe,Montreal,3,51,1974,D,Us,Unknown
+Barry Legge,Montreal,4,61,1974,D,Ca,Unknown
+John Stewart,Montreal,6,105,1974,C,Ca,Unknown
+Joe Micheletti,Montreal,7,123,1974,D,Us,Unknown
+Jamie Hislop,Montreal,8,140,1974,RW,Ca,Unknown
+Charlie Luksa,Montreal,10,172,1974,D,Ca,Unknown
+Dave Lumley,Montreal,12,199,1974,RW,Ca,Unknown
+Glenn Goldup,Montreal,2,17,1973,RW,Ca,Unknown
+Ron Andruff,Montreal,2,32,1973,C,Ca,Unknown
+Ed Humphreys,Montreal,3,37,1973,G,Ca,Unknown
+Al Hangsleben,Montreal,4,56,1973,D,Us,Unknown
+Cap Raeder,Montreal,12,167,1973,G,Us,Unknown
+Dave Gardner,Montreal,1,8,1972,C,Ca,Unknown
+John Van Boxmeer,Montreal,1,14,1972,D,Ca,Unknown
+Ed Gilbert,Montreal,3,46,1972,C,Ca,Unknown
+Bill Nyrop,Montreal,5,66,1972,D,Us,Unknown
+Chuck Arnason,Montreal,1,7,1971,RW,Ca,Unknown
+Murray Wilson,Montreal,1,11,1971,LW,Ca,Unknown
+Greg Hubick,Montreal,4,53,1971,D,Ca,Unknown
+Mike Busniuk,Montreal,5,67,1971,D,Ca,Unknown
+Peter Sullivan,Montreal,7,95,1971,C,Ca,Unknown
+Chuck Lefley,Montreal,1,6,1970,LW,Ca,Unknown
+Steve Carlyle,Montreal,3,31,1970,D,Ca,Unknown
+Rick Wilson,Montreal,5,66,1970,D,Ca,Unknown
+Bobby Sheehan,Montreal,3,32,1969,C,Us,Unknown
+Murray Anderson,Montreal,4,44,1969,D,Ca,Unknown
+Guy Delparte,Montreal,6,63,1969,LW,Ca,Unknown
+Lynn Powis,Montreal,6,68,1969,C,Ca,Unknown
+Phil Myre,Montreal,1,5,1966,G,Ca,Unknown
+Jude Drouin,Montreal,3,17,1966,C,Ca,Unknown
+Pierre Bouchard,Montreal,1,5,1965,D,Ca,Unknown
 Juraj Slafkovsky,Montreal,1,1,2022,LW,Sk,Unknown
 Juraj Slafkovsky,Montreal,1,1,2022,LW,Sk,Unknown
 Juraj Slafkovsky,Montreal,1,1,2022,LW,Sk,Unknown
@@ -1869,37 +1869,37 @@ Jacques Cloutier,Buffalo,3,55,1979,G,Ca,Unknown
 Gilles Hamel,Buffalo,4,74,1979,LW,Ca,Unknown
 Alan Haworth,Buffalo,5,95,1979,C,Ca,Unknown
 Rick Knickle,Buffalo,6,116,1979,G,Ca,Unknown
-Larry Playfair,Buffalo,1,13,2023,D,Ca,Unknown
-Tony McKegney,Buffalo,2,32,2023,LW,Ca,Unknown
-Rob McClanahan,Buffalo,3,49,2023,C,Us,Unknown
-Ric Seiling,Buffalo,1,14,2023,RW/C,Ca,Unknown
-Ron Areshenkoff,Buffalo,2,32,2023,C,Ca,Unknown
-Bill Stewart,Buffalo,4,68,2023,D,Ca,Unknown
-Wayne Ramsey,Buffalo,6,104,2023,D,Ca,Unknown
-Joe Kowal,Buffalo,2,33,2023,LW,Ca,Unknown
-Ken Breitenbach,Buffalo,2,35,2023,D,Ca,Unknown
-Terry Martin,Buffalo,3,44,2023,LW,Ca,Unknown
-Gary McAdam,Buffalo,3,53,2023,LW,Ca,Unknown
-Alex Tidey,Buffalo,8,143,2023,RW,Ca,Unknown
-Lee Fogolin,Buffalo,1,11,2023,D,Us,Unknown
-Danny Gare,Buffalo,2,29,2023,RW,Ca,Unknown
-Michel Deziel,Buffalo,3,47,2023,LW,Ca,Unknown
-Paul McIntosh,Buffalo,4,65,2023,D,Ca,Unknown
-Garry Lariviere,Buffalo,5,83,2023,D,Ca,Unknown
-Rick Jodzio,Buffalo,9,153,2023,LW,Ca,Unknown
-Derek Smith,Buffalo,10,168,2023,C/LW,Ca,Unknown
-Morris Titanic,Buffalo,1,12,2023,LW,Ca,Unknown
-Jim Schoenfeld,Buffalo,1,5,2023,D,Ca,Unknown
-Larry Carriere,Buffalo,2,25,2023,D,Ca,Unknown
-Gilles Gratton,Buffalo,5,69,2023,G,Ca,Unknown
-Peter McNab,Buffalo,6,85,2023,C,Ca,Unknown
-Rick Martin,Buffalo,1,5,2023,LW,Ca,Unknown
-Craig Ramsay,Buffalo,2,19,2023,LW,Ca,Unknown
-Bill Hajt,Buffalo,3,33,2023,D,Ca,Unknown
-Bob Richer,Buffalo,4,47,2023,C,Ca,Unknown
-Butch Deadmarsh,Buffalo,2,15,2023,LW,Ca,Unknown
-Randy Wyrozub,Buffalo,4,43,2023,C,Ca,Unknown
-Doug Rombough,Buffalo,8,97,2023,C,Ca,Unknown
+Larry Playfair,Buffalo,1,13,1978,D,Ca,Unknown
+Tony McKegney,Buffalo,2,32,1978,LW,Ca,Unknown
+Rob McClanahan,Buffalo,3,49,1978,C,Us,Unknown
+Ric Seiling,Buffalo,1,14,1977,RW/C,Ca,Unknown
+Ron Areshenkoff,Buffalo,2,32,1977,C,Ca,Unknown
+Bill Stewart,Buffalo,4,68,1977,D,Ca,Unknown
+Wayne Ramsey,Buffalo,6,104,1977,D,Ca,Unknown
+Joe Kowal,Buffalo,2,33,1976,LW,Ca,Unknown
+Ken Breitenbach,Buffalo,2,35,1975,D,Ca,Unknown
+Terry Martin,Buffalo,3,44,1975,LW,Ca,Unknown
+Gary McAdam,Buffalo,3,53,1975,LW,Ca,Unknown
+Alex Tidey,Buffalo,8,143,1975,RW,Ca,Unknown
+Lee Fogolin,Buffalo,1,11,1974,D,Us,Unknown
+Danny Gare,Buffalo,2,29,1974,RW,Ca,Unknown
+Michel Deziel,Buffalo,3,47,1974,LW,Ca,Unknown
+Paul McIntosh,Buffalo,4,65,1974,D,Ca,Unknown
+Garry Lariviere,Buffalo,5,83,1974,D,Ca,Unknown
+Rick Jodzio,Buffalo,9,153,1974,LW,Ca,Unknown
+Derek Smith,Buffalo,10,168,1974,C/LW,Ca,Unknown
+Morris Titanic,Buffalo,1,12,1973,LW,Ca,Unknown
+Jim Schoenfeld,Buffalo,1,5,1972,D,Ca,Unknown
+Larry Carriere,Buffalo,2,25,1972,D,Ca,Unknown
+Gilles Gratton,Buffalo,5,69,1972,G,Ca,Unknown
+Peter McNab,Buffalo,6,85,1972,C,Ca,Unknown
+Rick Martin,Buffalo,1,5,1971,LW,Ca,Unknown
+Craig Ramsay,Buffalo,2,19,1971,LW,Ca,Unknown
+Bill Hajt,Buffalo,3,33,1971,D,Ca,Unknown
+Bob Richer,Buffalo,4,47,1971,C,Ca,Unknown
+Butch Deadmarsh,Buffalo,2,15,1970,LW,Ca,Unknown
+Randy Wyrozub,Buffalo,4,43,1970,C,Ca,Unknown
+Doug Rombough,Buffalo,8,97,1970,C,Ca,Unknown
 Owen Power,Buffalo,1,1,2021,D,Ca,Unknown
 Owen Power,Buffalo,1,1,2021,D,Ca,Unknown
 Owen Power,Buffalo,1,1,2021,D,Ca,Unknown
@@ -2350,68 +2350,68 @@ Reijo Ruotsalainen,NY Rangers,6,119,1980,D,Fi,Unknown
 Doug Sulliman,NY Rangers,1,13,1979,RW,Ca,Unknown
 Ed Hospodar,NY Rangers,2,34,1979,D,Us,Unknown
 Pat Conacher,NY Rangers,4,76,1979,LW,Ca,Unknown
-Don Maloney,NY Rangers,2,26,2023,LW,Ca,Unknown
-Ray Markham,NY Rangers,3,43,2023,C,Ca,Unknown
-Dean Turner,NY Rangers,3,44,2023,D,Us,Unknown
-Dave Silk,NY Rangers,4,59,2023,RW,Us,Unknown
-André Doré,NY Rangers,4,60,2023,D,Ca,Unknown
-Mike McDougal,NY Rangers,5,76,2023,RW,Us,Unknown
-Tom Laidlaw,NY Rangers,6,93,2023,D,Ca,Unknown
-Dan Clark,Philadelphia,5,89,2023,D,Ca,Unknown
-Steve Weeks,NY Rangers,11,176,2023,G,Ca,Unknown
-Dan McCarthy,NY Rangers,15,223,2023,C,Ca,Unknown
-Lucien DeBlois,NY Rangers,1,8,2023,C,Ca,Unknown
-Ron Duguay,NY Rangers,1,13,2023,C/RW,Ca,Unknown
-Mike Keating,NY Rangers,2,26,2023,LW,Ca,Unknown
-Steve Baker,NY Rangers,3,44,2023,G,Us,Unknown
-Mario Marois,NY Rangers,4,62,2023,D,Ca,Unknown
-Benoit Gosselin,NY Rangers,5,80,2023,LW,Ca,Unknown
-John Bethel,NY Rangers,6,98,2023,LW,Ca,Unknown
-Bob Sullivan,NY Rangers,7,116,2023,LW,Ca,Unknown
-Lance Nethery,NY Rangers,8,131,2023,C,Ca,Unknown
-Don Murdoch,NY Rangers,1,6,2023,RW,Ca,Unknown
-Dave Farrish,NY Rangers,2,24,2023,D,Ca,Unknown
-Mike McEwen,NY Rangers,3,42,2023,D,Ca,Unknown
-Wayne Dillon,NY Rangers,1,12,2023,C,Ca,Unknown
-Doug Soetaert,NY Rangers,2,30,2023,G,Ca,Unknown
-Greg Hickey,NY Rangers,3,48,2023,LW,Ca,Unknown
-Larry Huras,NY Rangers,5,84,2023,D,Ca,Unknown
-Claude Larose,NY Rangers,7,120,2023,LW,Ca,Unknown
-Bud Stefanski,NY Rangers,9,154,2023,C,Ca,Unknown
-Dave Maloney,NY Rangers,1,14,2023,D,Ca,Unknown
-Ron Greschner,NY Rangers,2,32,2023,D,Ca,Unknown
-Jerry Holland,NY Rangers,3,50,2023,LW,Ca,Unknown
-Eddie Johnstone,NY Rangers,6,104,2023,RW,Ca,Unknown
-Greg Holst,NY Rangers,8,139,2023,C,Ca,Unknown
-Jim Mayer,NY Rangers,20,239,2023,RW,Ca,Unknown
-Warren Miller,NY Rangers,21,241,2023,RW,Us,Unknown
-Jim Warner,NY Rangers,23,245,2023,RW,Us,Unknown
-Rick Middleton,NY Rangers,1,14,2023,RW,Ca,Unknown
-Pat Hickey,NY Rangers,2,30,2023,LW,Ca,Unknown
-Bob MacMillan,NY Rangers,1,15,2023,RW,Ca,Unknown
-Larry Sacharuk,NY Rangers,2,21,2023,D,Ca,Unknown
-Doug Horbul,NY Rangers,4,63,2023,LW,Ca,Unknown
-Steve Durbano,NY Rangers,1,13,2023,D,Ca,Unknown
-Tom Williams,NY Rangers,2,27,2023,LW,Ca,Unknown
-Jerry Butler,NY Rangers,4,55,2023,RW,Ca,Unknown
-Wayne Wood,NY Rangers,6,83,2023,G,Ca,Unknown
-Gene Sobchuk,NY Rangers,8,109,2023,LW/C,Ca,Unknown
-André Peloffy,NY Rangers,10,111,2023,C,Fr,Unknown
-Norm Gratton,NY Rangers,1,11,2023,LW,Ca,Unknown
-Mike Murphy,NY Rangers,2,25,2023,RW,Ca,Unknown
-Gary Coalter,NY Rangers,5,67,2023,RW,Ca,Unknown
-Duane Wylie,NY Rangers,6,81,2023,C,Us,Unknown
-André Dupont,NY Rangers,1,8,2023,D,Ca,Unknown
-Pierre Jarry,NY Rangers,1,12,2023,LW,Ca,Unknown
-Bert Wilson,NY Rangers,2,23,2023,LW,Ca,Unknown
-Kevin Morrison,NY Rangers,3,35,2023,D,Ca,Unknown
-Gord Smith,NY Rangers,5,59,2023,D,Ca,Unknown
-Joey Johnston,NY Rangers,2,8,2023,LW,Ca,Unknown
-Don Luce,NY Rangers,3,14,2023,C,Ca,Unknown
-Jack Egers,NY Rangers,4,20,2023,RW,Ca,Unknown
-Michel Parizeau,NY Rangers,3,10,2023,C,Ca,Unknown
-Tim Ecclestone,NY Rangers,2,9,2023,LW,Ca,Unknown
-Syl Apps,NY Rangers,4,21,2023,C,Ca,Unknown
+Don Maloney,NY Rangers,2,26,1978,LW,Ca,Unknown
+Ray Markham,NY Rangers,3,43,1978,C,Ca,Unknown
+Dean Turner,NY Rangers,3,44,1978,D,Us,Unknown
+Dave Silk,NY Rangers,4,59,1978,RW,Us,Unknown
+André Doré,NY Rangers,4,60,1978,D,Ca,Unknown
+Mike McDougal,NY Rangers,5,76,1978,RW,Us,Unknown
+Tom Laidlaw,NY Rangers,6,93,1978,D,Ca,Unknown
+Dan Clark,Philadelphia,5,89,1977,D,Ca,Unknown
+Steve Weeks,NY Rangers,11,176,1978,G,Ca,Unknown
+Dan McCarthy,NY Rangers,15,223,1978,C,Ca,Unknown
+Lucien DeBlois,NY Rangers,1,8,1977,C,Ca,Unknown
+Ron Duguay,NY Rangers,1,13,1977,C/RW,Ca,Unknown
+Mike Keating,NY Rangers,2,26,1977,LW,Ca,Unknown
+Steve Baker,NY Rangers,3,44,1977,G,Us,Unknown
+Mario Marois,NY Rangers,4,62,1977,D,Ca,Unknown
+Benoit Gosselin,NY Rangers,5,80,1977,LW,Ca,Unknown
+John Bethel,NY Rangers,6,98,1977,LW,Ca,Unknown
+Bob Sullivan,NY Rangers,7,116,1977,LW,Ca,Unknown
+Lance Nethery,NY Rangers,8,131,1977,C,Ca,Unknown
+Don Murdoch,NY Rangers,1,6,1976,RW,Ca,Unknown
+Dave Farrish,NY Rangers,2,24,1976,D,Ca,Unknown
+Mike McEwen,NY Rangers,3,42,1976,D,Ca,Unknown
+Wayne Dillon,NY Rangers,1,12,1975,C,Ca,Unknown
+Doug Soetaert,NY Rangers,2,30,1975,G,Ca,Unknown
+Greg Hickey,NY Rangers,3,48,1975,LW,Ca,Unknown
+Larry Huras,NY Rangers,5,84,1975,D,Ca,Unknown
+Claude Larose,NY Rangers,7,120,1975,LW,Ca,Unknown
+Bud Stefanski,NY Rangers,9,154,1975,C,Ca,Unknown
+Dave Maloney,NY Rangers,1,14,1974,D,Ca,Unknown
+Ron Greschner,NY Rangers,2,32,1974,D,Ca,Unknown
+Jerry Holland,NY Rangers,3,50,1974,LW,Ca,Unknown
+Eddie Johnstone,NY Rangers,6,104,1974,RW,Ca,Unknown
+Greg Holst,NY Rangers,8,139,1974,C,Ca,Unknown
+Jim Mayer,NY Rangers,20,239,1974,RW,Ca,Unknown
+Warren Miller,NY Rangers,21,241,1974,RW,Us,Unknown
+Jim Warner,NY Rangers,23,245,1974,RW,Us,Unknown
+Rick Middleton,NY Rangers,1,14,1973,RW,Ca,Unknown
+Pat Hickey,NY Rangers,2,30,1973,LW,Ca,Unknown
+Bob MacMillan,NY Rangers,1,15,1972,RW,Ca,Unknown
+Larry Sacharuk,NY Rangers,2,21,1972,D,Ca,Unknown
+Doug Horbul,NY Rangers,4,63,1972,LW,Ca,Unknown
+Steve Durbano,NY Rangers,1,13,1971,D,Ca,Unknown
+Tom Williams,NY Rangers,2,27,1971,LW,Ca,Unknown
+Jerry Butler,NY Rangers,4,55,1971,RW,Ca,Unknown
+Wayne Wood,NY Rangers,6,83,1971,G,Ca,Unknown
+Gene Sobchuk,NY Rangers,8,109,1971,LW/C,Ca,Unknown
+André Peloffy,NY Rangers,10,111,1971,C,Fr,Unknown
+Norm Gratton,NY Rangers,1,11,1970,LW,Ca,Unknown
+Mike Murphy,NY Rangers,2,25,1970,RW,Ca,Unknown
+Gary Coalter,NY Rangers,5,67,1970,RW,Ca,Unknown
+Duane Wylie,NY Rangers,6,81,1970,C,Us,Unknown
+André Dupont,NY Rangers,1,8,1969,D,Ca,Unknown
+Pierre Jarry,NY Rangers,1,12,1969,LW,Ca,Unknown
+Bert Wilson,NY Rangers,2,23,1969,LW,Ca,Unknown
+Kevin Morrison,NY Rangers,3,35,1969,D,Ca,Unknown
+Gord Smith,NY Rangers,5,59,1969,D,Ca,Unknown
+Joey Johnston,NY Rangers,2,8,1966,LW,Ca,Unknown
+Don Luce,NY Rangers,3,14,1966,C,Ca,Unknown
+Jack Egers,NY Rangers,4,20,1966,RW,Ca,Unknown
+Michel Parizeau,NY Rangers,3,10,1965,C,Ca,Unknown
+Tim Ecclestone,NY Rangers,2,9,1964,LW,Ca,Unknown
+Syl Apps,NY Rangers,4,21,1964,C,Ca,Unknown
 Alexis Lafrenière,NY Rangers,1,1,2020,LW,Ca,Unknown
 Alexis Lafrenière,NY Rangers,1,1,2020,LW,Ca,Unknown
 Alexis Lafrenière,NY Rangers,1,1,2020,LW,Ca,Unknown
@@ -2867,29 +2867,29 @@ Shawn MacKenzie,Colorado,9,169,1980,G,Ca,Unknown
 Steve Peters,Colorado,4,64,1979,C,Ca,Unknown
 Gary Dillon,Colorado,5,85,1979,C,Ca,Unknown
 Bob Attwell,Colorado,6,106,1979,RW,Us,Unknown
-Mike Gillis,Colorado,1,5,2023,LW,Ca,Unknown
-Merlin Malinowski,Colorado,2,27,2023,C,Ca,Unknown
-Paul Messier,Colorado,3,41,2023,C,Gb,Unknown
-Dave Watson,Colorado,4,58,2023,LW,Ca,Unknown
-Kevin Krook,Colorado,9,142,2023,D,Ca,Unknown
-Barry Beck,Colorado,1,2,2023,D,Ca,Unknown
-Doug Berry,Colorado,3,38,2023,C,Ca,Unknown
-Randy Pierce,Colorado,3,47,2023,RW,Ca,Unknown
-Mike Dwyer,Colorado,5,74,2023,LW,Ca,Unknown
-Joe Contini,Colorado,8,126,2023,C,Ca,Unknown
-Jack Hughes,Colorado,9,142,2023,D,Us,Unknown
-Paul Gardner,Kansas City,1,11,2023,C,Ca,Unknown
-Mike Kitchen,Kansas City,3,38,2023,D,Ca,Unknown
-Larry Skinner,Kansas City,6,92,2023,C,Ca,Unknown
-Barry Dean,Kansas City,1,2,2023,LW,Ca,Unknown
-Don Cairns,Kansas City,2,20,2023,LW,Ca,Unknown
-Ron Delorme,Kansas City,4,56,2023,C,Ca,Unknown
-Bill Oleschuk,Kansas City,7,110,2023,G,Ca,Unknown
-Wilf Paiement,Kansas City,1,2,2023,RW,Ca,Unknown
-Glen Burdon,Kansas City,2,20,2023,C,Ca,Unknown
-Bob Bourne,Kansas City,3,38,2023,C,Ca,Unknown
-Roger Lemelin,Kansas City,4,56,2023,D,Ca,Unknown
-Mike Boland,Kansas City,7,110,2023,D,Ca,Unknown
+Mike Gillis,Colorado,1,5,1978,LW,Ca,Unknown
+Merlin Malinowski,Colorado,2,27,1978,C,Ca,Unknown
+Paul Messier,Colorado,3,41,1978,C,Gb,Unknown
+Dave Watson,Colorado,4,58,1978,LW,Ca,Unknown
+Kevin Krook,Colorado,9,142,1978,D,Ca,Unknown
+Barry Beck,Colorado,1,2,1977,D,Ca,Unknown
+Doug Berry,Colorado,3,38,1977,C,Ca,Unknown
+Randy Pierce,Colorado,3,47,1977,RW,Ca,Unknown
+Mike Dwyer,Colorado,5,74,1977,LW,Ca,Unknown
+Joe Contini,Colorado,8,126,1977,C,Ca,Unknown
+Jack Hughes,Colorado,9,142,1977,D,Us,Unknown
+Paul Gardner,Kansas City,1,11,1976,C,Ca,Unknown
+Mike Kitchen,Kansas City,3,38,1976,D,Ca,Unknown
+Larry Skinner,Kansas City,6,92,1976,C,Ca,Unknown
+Barry Dean,Kansas City,1,2,1975,LW,Ca,Unknown
+Don Cairns,Kansas City,2,20,1975,LW,Ca,Unknown
+Ron Delorme,Kansas City,4,56,1975,C,Ca,Unknown
+Bill Oleschuk,Kansas City,7,110,1975,G,Ca,Unknown
+Wilf Paiement,Kansas City,1,2,1974,RW,Ca,Unknown
+Glen Burdon,Kansas City,2,20,1974,C,Ca,Unknown
+Bob Bourne,Kansas City,3,38,1974,C,Ca,Unknown
+Roger Lemelin,Kansas City,4,56,1974,D,Ca,Unknown
+Mike Boland,Kansas City,7,110,1974,D,Ca,Unknown
 Jack Hughes,New Jersey,1,1,2019,C,Us,Unknown
 Jack Hughes,New Jersey,1,1,2019,C,Us,Unknown
 Jack Hughes,New Jersey,1,1,2019,C,Us,Unknown
@@ -3675,37 +3675,37 @@ Norm Aubin,Toronto,3,51,1979,C,Ca,Unknown
 Vincent Tremblay,Toronto,4,72,1979,G,Ca,Unknown
 Frank Nigro,Toronto,5,93,1979,C,Ca,Unknown
 Bill McCreary,Toronto,6,114,1979,RW,Us,Unknown
-Mark Kirton,Toronto,3,48,2023,C,Ca,Unknown
-Bob Parent,Toronto,4,65,2023,G,Ca,Unknown
-Jordy Douglas,Toronto,5,81,2023,LW,Ca,Unknown
-John Anderson,Toronto,1,11,2023,RW,Ca,Unknown
-Trevor Johansen,Toronto,1,12,2023,D,Ca,Unknown
-Bob Gladney,Toronto,2,24,2023,D,Ca,Unknown
-Rocky Saganiuk,Toronto,2,29,2023,RW/C,Ca,Unknown
-Roy Sommer,Toronto,6,101,2023,LW/C,Us,Unknown
-Alain Belanger,Toronto,3,48,2023,RW,Ca,Unknown
-Greg Hotham,Toronto,5,84,2023,D,Ca,Unknown
-Don Ashby,Toronto,1,6,2023,C,Ca,Unknown
-Doug Jarvis,Toronto,2,24,2023,C,Ca,Unknown
-Bruce Boudreau,Toronto,3,42,2023,C,Ca,Unknown
-Ron Wilson,Toronto,8,132,2023,D,Ca,Unknown
-Paul Evans,Toronto,9,149,2023,RW,Ca,Unknown
-Paul Crowley,Toronto,10,166,2023,RW,Ca,Unknown
-Ken Holland,Toronto,12,188,2023,G,Ca,Unknown
-Gary Burns,Toronto,12,191,2023,LW/C,Us,Unknown
-Jack Valiquette,Toronto,1,13,2023,C,Ca,Unknown
-Tiger Williams,Toronto,2,31,2023,LW,Ca,Unknown
-Peter Driscoll,Toronto,4,67,2023,LW,Ca,Unknown
-Mike Palmateer,Toronto,5,85,2023,G,Ca,Unknown
-Kevin Devine,Toronto,7,121,2023,LW,Ca,Unknown
-Kevin Kemp,Toronto,8,138,2023,D,Ca,Unknown
-Lanny McDonald,Toronto,1,4,2023,RW,Ca,Unknown
-Bob Neely,Toronto,1,10,2023,LW/D,Ca,Unknown
-Ian Turnbull,Toronto,1,15,2023,D,Ca,Unknown
-George Ferguson,Toronto,1,11,2023,C,Ca,Unknown
-Randy Osburn,Toronto,2,27,2023,LW,Ca,Unknown
-Pat Boutette,Toronto,9,139,2023,C/RW,Ca,Unknown
-Rick Kehoe,Toronto,2,22,2023,RW,Ca,Unknown
-Dave Fortier,Toronto,2,23,2023,D,Ca,Unknown
-Bob Sykes,Toronto,5,65,2023,LW,Ca,Unknown
-Dale Smedsmo,Toronto,7,93,2023,LW,Us,Unknown
+Mark Kirton,Toronto,3,48,1978,C,Ca,Unknown
+Bob Parent,Toronto,4,65,1978,G,Ca,Unknown
+Jordy Douglas,Toronto,5,81,1978,LW,Ca,Unknown
+John Anderson,Toronto,1,11,1977,RW,Ca,Unknown
+Trevor Johansen,Toronto,1,12,1977,D,Ca,Unknown
+Bob Gladney,Toronto,2,24,1977,D,Ca,Unknown
+Rocky Saganiuk,Toronto,2,29,1977,RW/C,Ca,Unknown
+Roy Sommer,Toronto,6,101,1977,LW/C,Us,Unknown
+Alain Belanger,Toronto,3,48,1976,RW,Ca,Unknown
+Greg Hotham,Toronto,5,84,1976,D,Ca,Unknown
+Don Ashby,Toronto,1,6,1975,C,Ca,Unknown
+Doug Jarvis,Toronto,2,24,1975,C,Ca,Unknown
+Bruce Boudreau,Toronto,3,42,1975,C,Ca,Unknown
+Ron Wilson,Toronto,8,132,1975,D,Ca,Unknown
+Paul Evans,Toronto,9,149,1975,RW,Ca,Unknown
+Paul Crowley,Toronto,10,166,1975,RW,Ca,Unknown
+Ken Holland,Toronto,12,188,1975,G,Ca,Unknown
+Gary Burns,Toronto,12,191,1975,LW/C,Us,Unknown
+Jack Valiquette,Toronto,1,13,1974,C,Ca,Unknown
+Tiger Williams,Toronto,2,31,1974,LW,Ca,Unknown
+Peter Driscoll,Toronto,4,67,1974,LW,Ca,Unknown
+Mike Palmateer,Toronto,5,85,1974,G,Ca,Unknown
+Kevin Devine,Toronto,7,121,1974,LW,Ca,Unknown
+Kevin Kemp,Toronto,8,138,1974,D,Ca,Unknown
+Lanny McDonald,Toronto,1,4,1973,RW,Ca,Unknown
+Bob Neely,Toronto,1,10,1973,LW/D,Ca,Unknown
+Ian Turnbull,Toronto,1,15,1973,D,Ca,Unknown
+George Ferguson,Toronto,1,11,1972,C,Ca,Unknown
+Randy Osburn,Toronto,2,27,1972,LW,Ca,Unknown
+Pat Boutette,Toronto,9,139,1972,C/RW,Ca,Unknown
+Rick Kehoe,Toronto,2,22,1971,RW,Ca,Unknown
+Dave Fortier,Toronto,2,23,1971,D,Ca,Unknown
+Bob Sykes,Toronto,5,65,1971,LW,Ca,Unknown
+Dale Smedsmo,Toronto,7,93,1971,LW,Us,Unknown

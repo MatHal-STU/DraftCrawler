@@ -24,10 +24,11 @@ def index_csv_data(csv_data, index_writer):
         doc.add(StringField("year", row[4], Field.Store.YES))
         doc.add(StringField("position", row[5], Field.Store.YES))
         doc.add(StringField("nationality", row[6], Field.Store.YES))
+        doc.add(StringField("junior_team", row[7], Field.Store.YES))
         index_writer.addDocument(doc)
 
 
-with open("output.csv", "r", newline="", encoding="utf-8") as csv_file:
+with open("output_merged.csv", "r", newline="", encoding="utf-8") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=",")
     store = MMapDirectory(Paths.get('index'))
     analyzer = StandardAnalyzer()
@@ -45,6 +46,7 @@ start_year = input("Enter the start year of the range: ")
 end_year = input("Enter the end year of the range: ")
 user_round = input("Enter the round: ")
 user_overall = input("Enter the overall: ")
+junior_team = input("Enter the junior_team: ")
 
 # user_name = ""
 # user_position = ""
@@ -86,11 +88,16 @@ if user_overall:
     overall_query = TermQuery(overall_term)
     boolean_query.add(overall_query, BooleanClause.Occur.MUST)
 
+if junior_team:
+    junior_team_term = Term("junior_team", junior_team)
+    junior_team_query = TermQuery(junior_team_term)
+    boolean_query.add(junior_team_query, BooleanClause.Occur.MUST)
+
 results = searcher.search(boolean_query.build(), 20)  # Adjust the number of results as needed
 # Print the matching entries
 for score_doc in results.scoreDocs:
     doc = searcher.doc(score_doc.doc)
-    print("Name: {}, Team: {}, Year: {}, Round: {}, Overall: {}, Position: {}, Nationality: {}".format(
+    print("Name: {}, Team: {}, Year: {}, Round: {}, Overall: {}, Position: {}, Nationality: {}, Junior_team: {}".format(
         doc.get("name"), doc.get("team"), doc.get("year"), doc.get("round"), doc.get("overall"), doc.get("position"),
-        doc.get("nationality")
+        doc.get("nationality"), doc.get("junior_team")
     ))
