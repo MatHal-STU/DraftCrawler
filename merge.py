@@ -26,12 +26,19 @@ for csv in csv_files:
 big_df = pd.concat(df_list, ignore_index=True)
 df = pd.read_csv(crawler_file, names=crawler_file_names)
 df = df.drop_duplicates()
+before_update_count = len(df)
 merged_df = pd.merge(df, big_df, on=["Overall", "Year"], how="left", suffixes=('_df', '_big_df'))
 merged_df["Junior_Team_df"] = merged_df.apply(lambda row: row["Junior_Team_big_df"] if row["Junior_Team_df"] == "Unknown" else row["Junior_Team_df"], axis=1)
 merged_df["Country_df"] = merged_df.apply(lambda row: row["Country_big_df"] if row["Country_df"] == "Unknown" else row["Country_df"], axis=1)
 # print(df.loc[[159220]])
 merged_df["Junior_Team_df"] = merged_df["Junior_Team_df"].fillna("Unknown")
 merged_df["Country_df"] = merged_df["Country_df"].fillna("Unknown")
+after_update_count = merged_df["Junior_Team_df"].eq("Unknown").sum()
+rows_updated = before_update_count - after_update_count
+
+print(f"Number of rows updated: {rows_updated}")
+print(f"Number of data gained from wiki: {len(big_df)}")
+
 
 merged_df = merged_df.drop(columns=["Junior_Team_big_df","Name_big_df", 'Country_big_df'])
 merged_df = merged_df.drop_duplicates()
